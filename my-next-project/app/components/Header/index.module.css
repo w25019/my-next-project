@@ -1,0 +1,27 @@
+.header{
+        position: absolute;
+    width:100% ;
+    padding: 16px 24px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logoLink{
+    display: flex;
+}
+
+.logo{
+    height: 24px;
+    width: auto;
+}
+.items{
+    color: #fff;
+    gap: 40px;
+    display: flex;
+}
+@media (max-width: 640px) {
+    .header{
+        padding: 24px 16px 8px;
+    }
+}
