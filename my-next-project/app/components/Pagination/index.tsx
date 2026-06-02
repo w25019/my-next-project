@@ -12,7 +12,7 @@ export default function Pagination({ totalCount,
     const pages=Array.from(
         {length:Math.ceil(totalCount/NEWS_LIST_LIMIT) },(_,i)=>i+1
     )
-    return <nav>
+    return (<nav>
         <ul className={styles.container}>
             {pages.map((p) => (
                 <li key={p} className={styles.list}>
@@ -28,5 +28,6 @@ export default function Pagination({ totalCount,
                 </li>
             ))}
         </ul>
-    </nav>;
+        
+    </nav>);
 }
