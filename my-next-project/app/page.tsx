@@ -66,8 +66,8 @@ export default async function Home() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>テクノロジーの力で{name}を変える</h1>
-          <p className={styles.description}>私たちは市場をリードしてグローバルテックカンパニーです。</p>
+   <h1 className={styles.title}>テクノロジーの力で世界を変える</h1>
+<p className={styles.description}>私たちは市場をリードしてグローバルテックカンパニーです。</p>
         </div>
         <Image className={styles.bgimg} src="/img-mv.jpg" alt="/" width={4000} height={1200} />
       </section>
